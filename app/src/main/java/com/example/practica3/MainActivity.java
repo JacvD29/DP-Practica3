@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Poner icono en action bar
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
         txtUrl = (EditText) findViewById(R.id.txtUrl);
         btnVis = (Button) findViewById(R.id.btnVisualizar);
         btnEjc1 = (Button) findViewById(R.id.btnEjc1);

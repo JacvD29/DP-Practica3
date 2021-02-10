@@ -12,7 +12,7 @@
         android:layout_height="75dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/button_rounded"
-        android:text="Ejercicio #1.2"
+        android:text="Ejercicio \n #1.2"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
@@ -27,7 +27,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@mipmap/ic_logo_round" />
+        android:background="@drawable/ic_logo"
+        tools:srcCompat="@mipmap/ic_logo" />
 
     <TextView
         android:id="@+id/lblTitulo"
@@ -81,7 +82,7 @@
         android:layout_height="75dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/button_rounded"
-        android:text="Ejercicio #1.1"
+        android:text="Ejercicio \n #1.1"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toStartOf="@+id/btnDp"
         app:layout_constraintHorizontal_bias="0.7"
